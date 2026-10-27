@@ -17,8 +17,7 @@ st.title("Dashboard de Anúncios de Veículos")
 st.header("Análise dos preços de veículos usados")
 # 2. Carregando os dados da tabela vehicles.csv
 
-vehicles = pd.read_csv(
-    r'C:\sprint5dir\sprint_5_project-Dashboard\vehicles.csv')
+vehicles = pd.read_csv('vehicles.csv')
 
 # 3. Preparando os dados para análise
 
